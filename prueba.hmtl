@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <link rel="stylesheet" type="text/css" href="style1.css" />
+  <title>NoviPel</title>
+</head>
+<body>
+
+
+<span class="dropt" title="Title for the pop-up">Hot Zone Text
+  <span style="width:500px;">Pop-up text</span>
+</span>
+</body>
+</html>

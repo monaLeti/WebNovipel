@@ -1,0 +1,78 @@
+
+html,
+body {
+	margin:0;
+	padding:0;
+	height:100%;
+	
+	
+}
+    
+#rightMenu{
+	position: absolute;
+	padding:0;
+	right: 0%;
+	width: 40%;
+	height: 100%;
+	background-color: #3767B1;
+	box-shadow:0px -8px 5px 13px #3767B1;
+}
+#rightMenu ul{
+	list-style:none;
+	
+}
+
+#rightMenu li{
+	
+	height: 100px;
+}
+#rightMenu input{
+	margin-top: 25%;
+	margin-left: 30%;
+	width: 120px;
+	height: 50px;
+	color:#3767B1;
+	font-family: "HelveticaNeue-Light";
+	box-shadow:0px -3px 3px 0px #6E6E6E;
+}
+#rightMenu input:hover{
+	margin-top: 25%;
+	margin-left: 30%;
+	width: 120px;
+	height: 50px;
+	color:black;
+	background-color:#3767B1;
+	border: 1px solid #3767B1;
+    	border-bottom: 1px solid #3767B1;
+	font-family: 'Helvetica Neue LT';
+	box-shadow:0px 0px 0px 0px #6E6E6E;
+	
+
+}
+#container{
+	width: 60%;
+	height: 100%;
+}
+#logo img{
+	margin-left: 15%;
+	width: 75%;
+	height: 75%;
+}
+#product img{
+	width: 270%;
+	height:250%;
+}
+table{
+	margin-top:5%;
+	margin-right:5%;
+	height:100%;
+	
+}
+table p{
+	text-align:justify;
+	margin-left:20%;
+	margin-right:8%;
+}
+#explanation{
+	margin-right:0%;
+}

@@ -1,0 +1,86 @@
+
+html,
+body {
+	margin:0;
+	padding:0;
+	height:100%;
+
+
+}
+
+#rightMenu{
+	position: absolute;
+	padding:0;
+	right: 0%;
+	width: 40%;
+	height: 100%;
+	background-color: #3767B1;
+	box-shadow:0px -8px 5px 13px #3767B1;
+}
+#rightMenu ul{
+	list-style:none;
+
+}
+
+
+#howWorks{
+	margin-top: 14%;
+	margin-left: 30%;
+
+}
+#howWorksExplanation, #needExplanation, #newsExplanation{
+	margin-top: 0%;
+	margin-right: 10%;
+	color:white;
+	font-family: 'Roboto', sans-serif;
+	text-align:center;
+	line-height: 150%;
+	font-weight: bold;
+}
+#need, #newsLetter{
+	margin-top: 10%;
+	margin-left: 30%;
+
+
+}
+
+#team{
+	margin-top: 10%;
+	margin-left: 37%;
+
+}
+
+#rightMenu a{
+	text-decoration:none;
+	font-size: 130%;
+	color:white;
+	font-family: 'Roboto:700', sans-serif;
+
+}
+
+#container{
+	width: 60%;
+	height: 100%;
+}
+#logo img{
+	margin-top: 5%;
+	margin-left: 15%;
+	width: 75%;
+	height: 75%;
+}
+#product img{
+	margin-top: 7%;
+	width: 240%;
+
+}
+
+#explanation {
+	font-size: 120%;
+	margin-right:5%;
+	margin-left: 18%;
+	margin-bottom: 23%;
+	text-align:center;
+	font-family: 'Roboto', sans-serif;
+	line-height: 150%;
+
+}

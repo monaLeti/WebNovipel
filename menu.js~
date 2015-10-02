@@ -1,0 +1,48 @@
+var c = document.getElementById('howWorks');
+var n = document.getElementById('need');
+var l = document.getElementById('newsLetter');
+var te = document.getElementById('team');
+//HowWors hover --> Everything gets compacted
+c.onmouseover = function (){
+  c.style.color="black";
+  c.style.marginBottom="37%";
+  n.style.marginTop="15%";
+  l.style.marginTop="15%";
+  te.style.marginTop="15%";
+}
+c.onmouseout = function(){
+  c.style.color="white";
+  c.style.marginBottom="0%";
+  n.style.marginTop="10%";
+  l.style.marginTop="27%";
+  te.style.marginTop="27%";
+}
+
+n.onmouseover = function (){
+  n.style.color="black";
+  n.style.marginBottom="50%";
+}
+n.onmouseout = function(){
+  n.style.color="white";
+  n.style.marginBottom="0%";
+}
+
+
+l.onmouseover = function (){
+  l.style.color="black";
+  l.style.marginBottom="50%";
+}
+l.onmouseout = function(){
+  l.style.color="white";
+  l.style.marginBottom="0%";
+}
+
+
+te.onmouseover = function (){
+  te.style.color="black";
+  te.style.marginBottom="50%";
+}
+te.onmouseout = function(){
+  te.style.color="white";
+  te.style.marginBottom="0%";
+}

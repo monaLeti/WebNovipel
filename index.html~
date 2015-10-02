@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	 	
+	<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
+	<title>NoviPel</title>
+	
+	<link rel="stylesheet" type="text/css" href="style.css" />	
+
+	
+</head>
+
+<body>
+	<div id = "rightMenu">
+		<ul>
+			<li><input type="submit" value="How works" onclick="location='team.htm'" align="center" id="How works" disabled="disabled"/> </li>
+			<li><input type="submit" value="We need you" onclick="location='team.htm'" align="center"id="We need you"/> </li>
+			<li><input type="submit" value="Newsletter" onclick="location='team.htm'"align="center"/> </li>
+			<li><input type="submit" value="Team" onclick="location='team.htm'"align="center"/> </li>
+		</ul>
+	</div>
+	
+	<div id = "container">
+		<div id = "logo"><img src="../images/LOGO.png" ></div>
+		<div id="explanation">
+			<table>
+				<tr>
+					<td><div id = "product"><img src="../images/Product_Picture.jpg" ></div></td>
+					<td><p>NoviPel is a Scandinavian R&D house. Our customers seek an effective personal trainer to strengthen their pelvic floor. It is our vision not only to develop an effective trainer but also bring a professional and aesthetic solution that allows training anywhere at any time, to the market. Our customer group is part of the development process bridging our development team with customer needs, inputs and evaluation of solutions as we move along in the process.</p></td>			
+				</tr>
+			</table>
+		</div>
+	
+	</div>
+
+	
+</body>
+
+</html>
