@@ -27,7 +27,7 @@ body {
 	margin-left: 37%;
 
 }
-#needExplanation{
+#needExplanation, #newsExplanation, #teamExplanation{
 	margin-top: 0%;
 	margin-right: 10%;
 	color:white;
