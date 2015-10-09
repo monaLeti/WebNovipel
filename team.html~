@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html ng-app="teamApp">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
+	<title>NoviPel</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular-animate.js"> </script>
+  <script src ="team.js"></script>
+	<link rel="stylesheet" type="text/css" href="styleTeam.css" />
+	<link rel="icon" type = "image/png"href="../images/MinorLogo.png">
+	<link href='https://fonts.googleapis.com/css?family=Roboto:100' rel='stylesheet' type='text/css'>
+
+</head>
+
+<body ng-controller="teamController as teamList">
+
+	<div id = "rightMenu">
+		<ul>
+			<li id="howWorks"><a href="howWorks.html" >HOW IT WORKS</a></li>
+			<li id="howWorksExplanation"></li>
+			<li id="need"><a href="#" >WE NEED YOU</a></li>
+			<li id="needExplanation"></li>
+			<li id="newsLetter"><a href="#">NEWSLETTERS</a></li>
+			<li id="newsExplanation"></li>
+			<li id="home"><a href="index.html">HOME</a></li>
+			<li></li>
+
+		</ul>
+	</div>
+
+	<div id = "container">
+		<div id = "logo"><img src="../images/LOGO.png" ></div>
+    <div class="picturesTable" >
+        <div class="Row" ng-repeat="item in teamList.list">
+          <div class="Cell" ng-repeat="person in item.people" >
+            <img ng-if="person.toggle" ng-src="{{person.img1}}" ng-mouseover="person.toggle=false" class="fade"/>
+						<img ng-if="!person.toggle" ng-src="{{person.img2}}" ng-mouseleave="person.toggle=true" class="fade"/>
+          </div>
+        </div>
+
+
+	</div>
+<script type="text/javascript" src="menu.js"></script>
+
+</body>
+
+</html>

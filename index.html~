@@ -2,39 +2,56 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	 	
 	<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
 	<title>NoviPel</title>
-	
-	<link rel="stylesheet" type="text/css" href="style.css" />	
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	<link rel="icon" type = "image/png"href="./images/MinorLogo.png">
+	<link href='https://fonts.googleapis.com/css?family=Roboto:100' rel='stylesheet' type='text/css'>
 
-	
 </head>
 
 <body>
+
 	<div id = "rightMenu">
 		<ul>
-			<li><input type="submit" value="How works" onclick="location='team.htm'" align="center" id="How works" disabled="disabled"/> </li>
-			<li><input type="submit" value="We need you" onclick="location='team.htm'" align="center"id="We need you"/> </li>
-			<li><input type="submit" value="Newsletter" onclick="location='team.htm'"align="center"/> </li>
-			<li><input type="submit" value="Team" onclick="location='team.htm'"align="center"/> </li>
+			<li id="howWorks"><a href="howWorks.html" >HOW IT WORKS</a></li>
+			<li id="howWorksExplanation"></li>
+			<li id="need"><a href="#" >WE NEED YOU</a></li>
+			<li id="needExplanation"></li>
+			<li id="newsLetter"><a href="news.html">NEWSLETTERS</a></li>
+			<li id="newsExplanation"></li>
+			<li id="team"><a href="team.html">TEAM</a></li>
+			<li id="teamExplanation"></li>
+			<li></li>
+
 		</ul>
 	</div>
-	
+
 	<div id = "container">
 		<div id = "logo"><img src="../images/LOGO.png" ></div>
-		<div id="explanation">
+
 			<table>
 				<tr>
 					<td><div id = "product"><img src="../images/Product_Picture.jpg" ></div></td>
-					<td><p>NoviPel is a Scandinavian R&D house. Our customers seek an effective personal trainer to strengthen their pelvic floor. It is our vision not only to develop an effective trainer but also bring a professional and aesthetic solution that allows training anywhere at any time, to the market. Our customer group is part of the development process bridging our development team with customer needs, inputs and evaluation of solutions as we move along in the process.</p></td>			
+					<td><p id="explanation">NoviPel is a Scandinavian R&D house. We have developed a new method of
+										monitoring the muscles of the pelvic floor. This method can revolutionize the way
+										we think about pelvic floor muscles and training. Please check out "How it Works" for a
+										walkthrough of our product and our specially designed sensor-system.<br><br>
+
+											We got a user-generated approach to development and put
+											the needs and considerations of all our customers above all other.<br>
+
+											Our patents are currently pending and we are soon the begin clinical trials of our
+												first devices. If you want to be a part of the NoviPel family, dont hesistate to take
+												contact today. We need everyone from developers to end-users and of course investors.
+											</p></td>
 				</tr>
 			</table>
-		</div>
-	
-	</div>
 
-	
+
+	</div>
+<script type="text/javascript" src="menu.js"></script>
+
 </body>
 
 </html>

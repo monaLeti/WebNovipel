@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="372.04724"
+   height="524.40942"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="dibujo4.png">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#f7f7f7"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.99215686"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="225.61572"
+     inkscape:cy="213.46397"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1301"
+     inkscape:window-height="744"
+     inkscape:window-x="65"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-527.95269)">
+    <text
+       xml:space="preserve"
+       style="font-size:47.27768326px;font-style:normal;font-variant:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#b3b3b3;fill-opacity:1;stroke:none;font-family:URW Gothic L;-inkscape-font-specification:URW Gothic L Book"
+       x="38.661396"
+       y="597.39227"
+       id="text3544"
+       sodipodi:linespacing="125%"
+       transform="scale(0.88573912,1.1290006)"><tspan
+         sodipodi:role="line"
+         id="tspan3546"
+         x="38.661396"
+         y="597.39227"
+         style="font-weight:600;fill:#b3b3b3;-inkscape-font-specification:URW Gothic L Semi-Bold">Hardware</tspan><tspan
+         sodipodi:role="line"
+         x="38.661396"
+         y="656.48938"
+         id="tspan3548"
+         style="font-weight:600;fill:#b3b3b3;-inkscape-font-specification:URW Gothic L Semi-Bold" /><tspan
+         sodipodi:role="line"
+         x="38.661396"
+         y="715.58649"
+         id="tspan3550"
+         style="font-weight:600;fill:#b3b3b3;-inkscape-font-specification:URW Gothic L Semi-Bold">Noam R.</tspan><tspan
+         sodipodi:role="line"
+         x="38.661396"
+         y="774.68359"
+         id="tspan3552"
+         style="font-weight:600;fill:#b3b3b3;-inkscape-font-specification:URW Gothic L Semi-Bold">nr@novipel.com</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3554"
+       y="597.39233"
+       x="43.437153"
+       style="font-size:47.27768326px;font-style:normal;font-variant:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#3767b1;fill-opacity:1;stroke:none;font-family:URW Gothic L;-inkscape-font-specification:URW Gothic L Book"
+       xml:space="preserve"
+       transform="scale(0.88573912,1.1290006)"><tspan
+         style="font-weight:600;fill:#3767b1;fill-opacity:1;-inkscape-font-specification:URW Gothic L Semi-Bold"
+         y="597.39233"
+         x="43.437153"
+         id="tspan3556"
+         sodipodi:role="line">Hardware</tspan><tspan
+         style="font-weight:600;fill:#3767b1;fill-opacity:1;-inkscape-font-specification:URW Gothic L Semi-Bold"
+         id="tspan3558"
+         y="656.48944"
+         x="43.437153"
+         sodipodi:role="line" /><tspan
+         style="font-weight:600;fill:#3767b1;fill-opacity:1;-inkscape-font-specification:URW Gothic L Semi-Bold"
+         id="tspan3560"
+         y="715.58655"
+         x="43.437153"
+         sodipodi:role="line">Noam R.</tspan><tspan
+         style="font-weight:600;fill:#3767b1;fill-opacity:1;-inkscape-font-specification:URW Gothic L Semi-Bold"
+         id="tspan3562"
+         y="774.68365"
+         x="43.437153"
+         sodipodi:role="line">nr@novipel.com</tspan></text>
+  </g>
+</svg>
