@@ -4,44 +4,51 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
 	<title>NoviPel</title>
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="styleTeam.css" />
+	<link rel="icon" type = "image/png"href="./images/MinorLogo.png">
+	<link href='https://fonts.googleapis.com/css?family=Roboto:100' rel='stylesheet' type='text/css'>
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular-animate.js"> </script>
   <script src ="team.js"></script>
-	<link rel="stylesheet" type="text/css" href="styleTeam.css" />
-	<link rel="icon" type = "image/png"href="./images/MinorLogo.png">
-	<link href='https://fonts.googleapis.com/css?family=Roboto:100' rel='stylesheet' type='text/css'>
 
 </head>
 
 <body ng-controller="teamController as teamList">
-
-	<div id = "rightMenu">
-		<ul>
-			<li id="howWorks"><a href="howWorks.html" >HOW IT WORKS</a></li>
-			<li id="howWorksExplanation"></li>
-			<li id="need"><a href="#" >WE NEED YOU</a></li>
-			<li id="needExplanation"></li>
-			<li id="newsLetter"><a href="#">NEWSLETTERS</a></li>
-			<li id="newsExplanation"></li>
-			<li id="home"><a href="index.html">HOME</a></li>
-			<li></li>
-
-		</ul>
-	</div>
-
-	<div id = "container">
-		<div id = "logo"><img src="./images/LOGO.png" ></div>
-    <div class="picturesTable" >
-        <div class="Row" ng-repeat="item in teamList.list">
-          <div class="Cell" ng-repeat="person in item.people" >
-            <img ng-if="person.toggle" ng-src="{{person.img1}}" ng-mouseover="person.toggle=false" class="fade"/>
-						<img ng-if="!person.toggle" ng-src="{{person.img2}}" ng-mouseleave="person.toggle=true" class="fade"/>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-7" id="main">
+        <div class="col-md-12" id="logo">
+          <img src="./images/LOGO.png" class="img-responsive"  width="700"	height="700" >
+        </div>
+        <div class="arrayPictures col-md-12" ng-repeat="item in teamList.list" ng-animate="'animate'">
+          <div class="teamPictures col-md-4" ng-repeat="person in item.people" >
+            <img class="img-responsive"ng-if="person.toggle" ng-src="{{person.img1}}" ng-mouseover="person.toggle=false" />
+            <img class="img-responsive"  ng-if="!person.toggle" ng-src="{{person.img2}}" ng-mouseleave="person.toggle=true" />
           </div>
         </div>
+      </div>
+      <div class="col-md-5" id="rightCol">
+        <ul class="sidebar nav nav-stacked " >
+					<li id="home"><a href="index.html">HOME</a></li>
+          <li id="howWorks"><a href="howWorks.html" >HOW IT WORKS</a></li>
+    			<li id="howWorksExplanation"></li>
+    			<li id="need"><a href="need.html" >WE NEED YOU</a></li>
+    			<li id="needExplanation"></li>
+    			<li id="newsLetter"><a href="news.html">NEWSLETTERS</a></li>
+    			<li id="newsExplanation"></li>
 
+        </ul>
+      </div>
 
-	</div>
-<script type="text/javascript" src="menu.js"></script>
+    </div>
+
+  </div>
+
+  <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script src="./css/bootstrap.min.js"></script>
+  <script type="text/javascript" src="menu.js"></script>
 
 </body>
 

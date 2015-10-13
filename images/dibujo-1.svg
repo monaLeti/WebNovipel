@@ -9,12 +9,12 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="64px"
-   height="64px"
+   width="744.09448"
+   height="1052.3622"
    id="svg3857"
    version="1.1"
    inkscape:version="0.48.4 r9939"
-   sodipodi:docname="Nuevo documento 8">
+   sodipodi:docname="dibujo-1.svg">
   <defs
      id="defs3859" />
   <sodipodi:namedview
@@ -24,9 +24,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="7.7781746"
-     inkscape:cx="62.200407"
-     inkscape:cy="27.460167"
+     inkscape:zoom="0.2071228"
+     inkscape:cx="-189.30046"
+     inkscape:cy="-213.42824"
      inkscape:current-layer="layer1"
      showgrid="true"
      inkscape:document-units="px"
@@ -51,7 +51,8 @@
   <g
      id="layer1"
      inkscape:label="Layer 1"
-     inkscape:groupmode="layer">
+     inkscape:groupmode="layer"
+     transform="translate(0,988.3622)">
     <path
        sodipodi:type="arc"
        style="fill:#003767;fill-opacity:0.69411765"
@@ -61,12 +62,18 @@
        sodipodi:rx="272.85715"
        sodipodi:ry="267.14285"
        d="m 671.42859,473.79074 a 272.85715,267.14285 0 1 1 -545.7143,0 272.85715,267.14285 0 1 1 545.7143,0 z"
-       transform="matrix(0.11653724,0,0,0.11929626,-14.357043,-24.703278)" />
+       transform="matrix(0.93048137,0,0,0.79929013,-116.68145,-528.53359)"
+       inkscape:export-filename="/home/leti/www/webdesign/novipel/images/dibujo-1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <flowRoot
        xml:space="preserve"
        id="flowRoot3755"
        style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:TeX Gyre Heros;-inkscape-font-specification:TeX Gyre Heros"
-       transform="matrix(0.32013053,0,0,0.64700847,-62.795929,-231.11332)"><flowRegion
+       transform="matrix(3.4177373,0,0,4.334985,-774.18412,-1911.4899)"
+       inkscape:export-filename="/home/leti/www/webdesign/novipel/images/dibujo-1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><flowRegion
          id="flowRegion3757"><rect
            id="rect3759"
            width="342.85715"
