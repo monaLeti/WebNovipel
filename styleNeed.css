@@ -1,4 +1,6 @@
 body{
+  width: 100%;
+  height: 100%
   padding-left: 0;
 }
 .container-fluid{
@@ -10,13 +12,16 @@ body{
 }
 
 #rightCol{
+  position: fixed;
+  right: 250px;
+  height: 100%;
+  margin-right: -250px;
+  background: #000;
   padding-top: 10%;
   padding-bottom: 0;
-  height: 832px;
   background-color: #3767B1;
   box-shadow:0px -8px 5px 13px #3767B1;
-
-}
+  }
 #rightCol a:hover{
   background-color: #3767B1;
 }
@@ -29,15 +34,15 @@ body{
   padding-bottom: 10%;
   font-family: 'Roboto:700', sans-serif;
   color: white;
-  font-size: 140%;
+  font-size: 100%;
 }
 
 #teamExplanation{
   color:white;
 	font-family: 'Roboto', sans-serif;
   text-align:center;
-	line-height: 150%;
-  font-size: 120%;
+	line-height: 100%;
+  font-size: 100%;
 	font-weight: bold;
 }
 #howWorksExplanation, #needExplanation, #newsExplanation{
@@ -45,9 +50,9 @@ body{
 	color:white;
 	font-family: 'Roboto', sans-serif;
 	text-align:center;
-	line-height: 150%;
+	line-height: 100%;
 	font-weight: bold;
-  font-size: 110%;
+  font-size: 100%;
 }
 .contact{
   padding-left: 10%;
